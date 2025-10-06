@@ -1,4 +1,4 @@
-#        WORKS FOR BLENDER 4.5 and above
+#        WORKS FOR BLENDER v4.5+
 #        Use Grease Pencils's bottom layer keyframes to render
 #        Exported in "export" folder in the same path as your .blend file
 #        Limitations : - No Camera Data export
