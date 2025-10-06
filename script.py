@@ -1,3 +1,4 @@
+#WORKS FOR BLENDER 4.5 and above
 import bpy
 import json
 import os
@@ -13,15 +14,9 @@ fieldIds = [0,3,5]
 _tracks = {}
 _trackNo = layers_id
 timetables_data = []
-
-#-------------------------
-#for x in bpy.data.objects:
-#    if x.type == "GREASEPENCIL":
-#        layers.append(x.name)
         
 for i in enumerate(layers):
     layers_id.append(i[0])
-#-------------------------
 
 dict["header"] = {"cut":0,"scene":0}
 dict["timeTables"] = []
@@ -40,8 +35,6 @@ _ft["tracks"]= _tracks
 
 _tf={}
 frames_list= []
-
-#bpy.data.grease_pencils_v3['GPencil.001'].layers['a'].frames
 gg = -1
 for l in layers:
     gg += 1
