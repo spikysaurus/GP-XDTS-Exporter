@@ -1,4 +1,7 @@
-#WORKS FOR BLENDER 4.5 and above
+#        WORKS FOR BLENDER 4.5 and above
+#        Limitations : - No Camera Data export
+#                      - No Instanced Drawing/Cell
+
 import bpy
 import json
 import os
