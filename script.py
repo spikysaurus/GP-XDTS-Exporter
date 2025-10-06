@@ -1,4 +1,5 @@
 #        WORKS FOR BLENDER 4.5 and above
+#        Use Grease Pencils's bottom layer keyframes to render
 #        Limitations : - No Camera Data export
 #                      - No Instanced Drawing/Duplicate Cell Number
 
